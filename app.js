@@ -6,12 +6,25 @@
 // V8 + C++ => Node
 
 // Why Node?
+///---> It’s a light, scalable and open-source language platform which makes it very easy to build apps even at the enterprise level also. 
+//-->Overall it increases the efficiency of the development process as it fills the gap between frontend and backend applications.
 // JS => React + Node -> FSD
 // Extremely fast ->
 
 /**
  * Single threaded asynchronous language
+ //A single-thread language is one with a single call stack and a single memory heap. It means that it runs only one thing at a time.
+
+//A stack is a continuous region of memory, allocating local context for each executed function.
+
+//A heap is a much larger region, storing everything allocated dynamically.
+
+//A call stack is a data structure which basically records where we are in the program.
+
+///Asynchronous with a single thread: Tasks start being executed without waiting for a different task to finish. At a given time, only a single task can be executed.
  * It follows non blocking I/O operations
+ ///-->initiate a request in parallel for user2 without waiting for the response to the request for user1. The requests in Node.js can initiate in parallel. 
+ //This non-blocking I/O eliminates the need for multi-threading.
  **/
 
 // console.log(1);
